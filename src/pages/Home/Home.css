@@ -6,7 +6,7 @@
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 60px);
 }
 
 .home__cover {
