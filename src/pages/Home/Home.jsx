@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../components/Header/Header";
+import avatar from "../../assets/me.jpg";
 import "./Home.css";
 
 const Home = () => {
@@ -7,16 +8,17 @@ const Home = () => {
     <main className="home">
       <div className="home__cover">
         <Header />
-        <h1 className="home__title">
-          Hello! I'm <span className="home__gradient">Yury Bursian</span>
-          , <br /> a Full-Stack web developer.
-        </h1>
-        <p>
-          Я фронтенд-разработчик с опытом создания современных веб-приложений.
-          Ознакомьтесь с моими <a href="/projects">проектами</a> и{" "}
-          <a href="/skills">навыками</a>.
-        </p>
-        <img src="/images/my-photo.jpg" alt="Мое фото" className="my-photo" />
+        <div className="home__main">
+          <h1 className="home__title">
+            Hello! <br /> I'm{" "}
+            <span className="home__gradient">Yury Bursian</span>
+            , <br /> a Full-Stack web developer.
+          </h1>
+          <div className="home__buttons">
+            <button className="home__button">My Projects</button>
+            <button className="home__button">My skills</button>
+          </div>
+        </div>
       </div>
     </main>
   );
