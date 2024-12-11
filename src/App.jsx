@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer/Footer.jsx";
 import Home from "./pages/Home/Home.jsx";
-import Projects from "./pages/Projects.jsx";
+import Projects from "./pages/Projects/Projects.jsx";
 import Skills from "./pages/Skills.jsx";
 import About from "./pages/About/About.jsx";
 
