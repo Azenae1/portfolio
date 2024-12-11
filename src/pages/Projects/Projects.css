@@ -37,10 +37,12 @@
 
 .project-card--left {
   flex-direction: row;
+  margin-right: 60px;
 }
 
 .project-card--right {
   flex-direction: row-reverse;
+  margin-left: 60px;
 }
 
 .project-card__content {

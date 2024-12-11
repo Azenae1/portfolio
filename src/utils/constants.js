@@ -1,5 +1,6 @@
 import Image from "../assets/logo.png";
 import About_me from "../assets/about-me.png";
+import News_explorer from "../assets/news.png";
 
 export const projects = [
   {
@@ -12,10 +13,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Project Two",
+    title: "News Explorer",
     description:
-      "The second project has an innovative design and rich functionality.",
-    image: Image,
+      "This application is designed to allow users search for the latest news on any topic and save them in their personal account. The site is powered by News API and features responsive design.",
+    image: News_explorer,
+    link: "https://news-explorer.crabdance.com/",
   },
   {
     id: 3,

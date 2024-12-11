@@ -1,6 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "../../components/Header/Header";
-import avatar from "../../assets/me.jpg";
 import "./Home.css";
 
 const Home = () => {
@@ -15,8 +15,12 @@ const Home = () => {
             , <br /> a Full-Stack web developer
           </h1>
           <div className="home__buttons">
-            <button className="home__button">My Projects</button>
-            <button className="home__button">My skills</button>
+            <Link to="/projects" className="home__button">
+              My Projects
+            </Link>
+            <Link to="/skills" className="home__button">
+              My skills
+            </Link>
           </div>
         </div>
       </div>
