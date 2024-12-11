@@ -1,6 +1,6 @@
 .projects {
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0;
   background-color: rgb(27, 27, 27);
   color: #fff;
   font-family: "Poppins", sans-serif;
@@ -45,7 +45,7 @@
 
 .project-card__content {
   flex: 1;
-  padding: 20px;
+  padding: 50px;
 }
 
 .project-card__title {
