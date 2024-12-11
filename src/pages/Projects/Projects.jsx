@@ -17,7 +17,16 @@ const Projects = () => {
             }`}
           >
             <div className="project-card__content">
-              <h2 className="project-card__title">{project.title}</h2>
+              <h2 className="project-card__title">
+                <a
+                  href={project.link}
+                  className="project-card__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {project.title}
+                </a>
+              </h2>
               <p className="project-card__description">{project.description}</p>
             </div>
             <div className="project-card__image">

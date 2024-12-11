@@ -1,12 +1,14 @@
 import Image from "../assets/logo.png";
+import About_me from "../assets/about-me.png";
 
 export const projects = [
   {
     id: 1,
-    title: "Project One",
+    title: "About me",
     description:
-      "This is the first project description. It showcases a unique feature.",
-    image: Image,
+      "My first web application. A simple page, highlighting some of my hobbies and interests.",
+    image: About_me,
+    link: "https://azenae1.github.io/se_project_about-me/",
   },
   {
     id: 2,
