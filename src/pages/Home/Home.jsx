@@ -12,7 +12,7 @@ const Home = () => {
           <h1 className="home__title">
             Hello! <br /> I'm{" "}
             <span className="home__gradient">Yury Bursian</span>
-            , <br /> a Full-Stack web developer.
+            , <br /> a Full-Stack web developer
           </h1>
           <div className="home__buttons">
             <button className="home__button">My Projects</button>

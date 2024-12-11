@@ -1,9 +1,10 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer>
-      <p>© 2024 [Ваше Имя]. Все права защищены.</p>
+    <footer className="footer">
+      <p className="copyright">© 2024 By Yury Bursian. All rights reserved.</p>
       <div className="social-links">
         <a
           href="https://github.com/ваш-профиль"
