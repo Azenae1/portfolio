@@ -30,7 +30,9 @@ const Projects = () => {
               <p className="project-card__description">{project.description}</p>
             </div>
             <div className="project-card__image">
-              <img src={project.image} alt={project.title} />
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img src={project.image} alt={project.title} />
+              </a>
             </div>
           </div>
         ))}
