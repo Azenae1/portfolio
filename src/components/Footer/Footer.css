@@ -11,6 +11,19 @@
   font-family: "Poppins", sans-serif;
 }
 
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__link {
+  height: 25px;
+}
+
+.footer__img {
+  width: 25px;
+}
+
 .copyright {
   margin: 0;
   padding: 0;

@@ -1,4 +1,7 @@
 import React from "react";
+
+import github from "../../assets/github.png";
+import linkedin from "../../assets/linkedin.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -7,18 +10,20 @@ const Footer = () => {
       <p className="copyright">© 2024 By Yury Bursian. All rights reserved.</p>
       <div className="social-links">
         <a
-          href="https://github.com/ваш-профиль"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
+          className="footer__link"
         >
-          GitHub
+          <img className="footer__img" src={github} alt="Github" />
         </a>
         <a
-          href="https://linkedin.com/in/ваш-профиль"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
+          className="footer__link"
         >
-          LinkedIn
+          <img className="footer__img" src={linkedin} alt="LinkedIn" />
         </a>
       </div>
     </footer>
