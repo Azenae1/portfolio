@@ -1,0 +1,24 @@
+.home {
+  margin: 0 auto;
+  color: #fff;
+}
+
+.home__cover {
+  background-image: url(../../assets/background.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.home__title {
+  margin-top: 120px;
+}
+
+.home__gradient {
+  background: linear-gradient(to bottom, #fff, #f2c300);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: bold;
+}
