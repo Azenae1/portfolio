@@ -22,7 +22,7 @@ const Skills = () => {
 
       <button className="skills__cv-button">
         <a
-          href="#"
+          href="https://docs.google.com/document/d/1scupnPHkeW4TWCgouYl23JzUqqY3NPEK/edit?usp=sharing&ouid=115147468320759622793&rtpof=true&sd=true"
           target="_blank"
           rel="noopener noreferrer"
           className="skills__cv-link"

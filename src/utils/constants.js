@@ -78,7 +78,7 @@ export const skillsList = [
   { id: 2, name: "CSS3", logo: css, style: { width: "162px" } },
   { id: 3, name: "JavaScript", logo: js, style: { width: "210px" } },
   { id: 4, name: "React", logo: react, style: { width: "210px" } },
-  { id: 5, name: "Typecsript", logo: ts, style: { width: "186px" } },
+  { id: 5, name: "TypeScript", logo: ts, style: { width: "186px" } },
   { id: 6, name: "Node.js", logo: node, style: { width: "140px" } },
   { id: 7, name: "MongoDB", logo: mongo, style: { width: "140px" } },
   { id: 8, name: "Webpack", logo: webpack, style: { width: "134px" } },
