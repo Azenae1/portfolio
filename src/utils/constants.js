@@ -17,6 +17,10 @@ import mongo from "../assets/mongo.png";
 import gcp from "../assets/gcp.png";
 import docker from "../assets/docker.png";
 import aws from "../assets/aws.png";
+import npm from "../assets/npm.png";
+import wp from "../assets/wp.png";
+import redux from "../assets/redux.png";
+import next from "../assets/next.png";
 
 export const projects = [
   {
@@ -76,10 +80,14 @@ export const skillsList = [
   { id: 4, name: "React", logo: react, style: { width: "210px" } },
   { id: 5, name: "Typecsript", logo: ts, style: { width: "186px" } },
   { id: 6, name: "Node.js", logo: node, style: { width: "140px" } },
-  { id: 7, name: "Git", logo: git, style: { width: "140px" } },
-  { id: 8, name: "MongoDB", logo: mongo, style: { width: "140px" } },
-  { id: 9, name: "Webpack", logo: webpack, style: { width: "134px" } },
+  { id: 7, name: "MongoDB", logo: mongo, style: { width: "140px" } },
+  { id: 8, name: "Webpack", logo: webpack, style: { width: "134px" } },
+  { id: 9, name: "Git", logo: git, style: { width: "140px" } },
   { id: 10, name: "GoogleCloud", logo: gcp, style: { width: "160px" } },
-  { id: 11, name: "Docker", logo: docker, style: { width: "144px" } },
-  { id: 12, name: "AmazonWebServices", logo: aws, style: { width: "134px" } },
+  { id: 11, name: "AmazonWebServices", logo: aws, style: { width: "134px" } },
+  { id: 12, name: "Docker", logo: docker, style: { width: "144px" } },
+  { id: 13, name: "NPM", logo: npm, style: { width: "200px" } },
+  { id: 14, name: "React Redux", logo: redux, style: { width: "135px" } },
+  { id: 15, name: "WordPress", logo: wp, style: { width: "135px" } },
+  { id: 16, name: "Next.js", logo: next, style: { width: "135px" } },
 ];
