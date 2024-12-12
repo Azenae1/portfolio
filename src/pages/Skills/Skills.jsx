@@ -11,7 +11,7 @@ const Skills = () => {
       <div className="skills__grid">
         {skillsList.map((skill) => (
           <div key={skill.id} className="skills__tile">
-            <img src={skill.logo} alt={skill.name} />
+            <img src={skill.logo} alt={skill.name} style={skill.style} />
           </div>
         ))}
         {/* Experience */}

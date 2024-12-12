@@ -38,7 +38,6 @@
 }
 
 .skills__tile img {
-  max-width: 230px;
   object-fit: contain;
 }
 

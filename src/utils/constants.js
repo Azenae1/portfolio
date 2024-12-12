@@ -10,6 +10,13 @@ import css from "../assets/css.png";
 import js from "../assets/js.png";
 import ts from "../assets/ts.png";
 import react from "../assets/react.png";
+import node from "../assets/node.png";
+import git from "../assets/git.png";
+import webpack from "../assets/webpack.png";
+import mongo from "../assets/mongo.png";
+import gcp from "../assets/gcp.png";
+import docker from "../assets/docker.png";
+import aws from "../assets/aws.png";
 
 export const projects = [
   {
@@ -63,12 +70,16 @@ export const projects = [
 ];
 
 export const skillsList = [
-  { id: 1, name: "HTML5", logo: html },
-  { id: 2, name: "CSS3", logo: css },
-  { id: 3, name: "JavaScript", logo: js },
-  { id: 4, name: "React", logo: react },
-  { id: 5, name: "Typecsript", logo: ts },
-  { id: 6, name: "Node.js", logo: "path/to/nodejs-logo.png" },
-  { id: 7, name: "Tailwind CSS", logo: "path/to/tailwind-logo.png" },
-  { id: 8, name: "MongoDB", logo: "path/to/mongodb-logo.png" },
+  { id: 1, name: "HTML5", logo: html, style: { width: "173px" } },
+  { id: 2, name: "CSS3", logo: css, style: { width: "162px" } },
+  { id: 3, name: "JavaScript", logo: js, style: { width: "210px" } },
+  { id: 4, name: "React", logo: react, style: { width: "210px" } },
+  { id: 5, name: "Typecsript", logo: ts, style: { width: "186px" } },
+  { id: 6, name: "Node.js", logo: node, style: { width: "140px" } },
+  { id: 7, name: "Git", logo: git, style: { width: "140px" } },
+  { id: 8, name: "MongoDB", logo: mongo, style: { width: "140px" } },
+  { id: 9, name: "Webpack", logo: webpack, style: { width: "134px" } },
+  { id: 10, name: "GoogleCloud", logo: gcp, style: { width: "160px" } },
+  { id: 11, name: "Docker", logo: docker, style: { width: "144px" } },
+  { id: 12, name: "AmazonWebServices", logo: aws, style: { width: "134px" } },
 ];
