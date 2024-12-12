@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+.contacts {
+  text-align: center;
+  background-color: #0b0f19;
+  color: #f4f4f4;
+  font-family: "Poppins", sans-serif;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #f2c300;
+  background: linear-gradient(145deg, #f2c300, #e8f561);
+  background-clip: text;
+  color: transparent;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.contacts__info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+  align-items: center;
+  margin: 30px 60px 40px;
+}
+
+.contacts__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts__link {
+  display: flex;
+  justify-content: center;
+  width: 190px;
+  align-items: center;
+  color: #f4f4f4;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #121826;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contacts__link:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.contacts__icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.contacts__relocation {
+  background-color: #1c2232;
+  max-width: 800px;
+  align-self: center;
+  padding: 10px 20px;
+  margin: 60px 60px auto;
+  border-radius: 10px;
+}
+
+.contacts__relocation-img {
+  width: 40px;
+}
+
+.contacts__relocation-text {
+  font-size: 1.5rem;
+  color: #e8f561;
+  margin: 0;
+}

@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home.jsx";
 import Projects from "./pages/Projects/Projects.jsx";
 import Skills from "./pages/Skills/Skills.jsx";
 import About from "./pages/About/About.jsx";
+import Contacts from "./pages/Contacts/Contacts.jsx";
 import ScrollToTopButton from "./components/ScrollButton/ScrollButton.jsx";
 
 import "./App.css";
@@ -18,6 +19,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
       <Footer />
       <ScrollToTopButton />
