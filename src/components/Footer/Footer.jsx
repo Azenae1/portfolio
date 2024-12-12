@@ -10,7 +10,7 @@ const Footer = () => {
       <p className="copyright">© 2024 By Yury Bursian. All rights reserved.</p>
       <div className="social-links">
         <a
-          href="#"
+          href="https://github.com/Azenae1"
           target="_blank"
           rel="noopener noreferrer"
           className="footer__link"
@@ -18,7 +18,7 @@ const Footer = () => {
           <img className="footer__img" src={github} alt="Github" />
         </a>
         <a
-          href="#"
+          href="https://www.linkedin.com/in/yury-bursian/"
           target="_blank"
           rel="noopener noreferrer"
           className="footer__link"

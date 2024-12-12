@@ -5,6 +5,12 @@ import wtwr from "../assets/wtwr.png";
 import library from "../assets/library.png";
 import News_explorer from "../assets/news.png";
 
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import js from "../assets/js.png";
+import ts from "../assets/ts.png";
+import react from "../assets/react.png";
+
 export const projects = [
   {
     id: 1,
@@ -54,4 +60,15 @@ export const projects = [
     image: About_me,
     link: "https://azenae1.github.io/se_project_about-me/",
   },
+];
+
+export const skillsList = [
+  { id: 1, name: "HTML5", logo: html },
+  { id: 2, name: "CSS3", logo: css },
+  { id: 3, name: "JavaScript", logo: js },
+  { id: 4, name: "React", logo: react },
+  { id: 5, name: "Typecsript", logo: ts },
+  { id: 6, name: "Node.js", logo: "path/to/nodejs-logo.png" },
+  { id: 7, name: "Tailwind CSS", logo: "path/to/tailwind-logo.png" },
+  { id: 8, name: "MongoDB", logo: "path/to/mongodb-logo.png" },
 ];

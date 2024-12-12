@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer/Footer.jsx";
 import Home from "./pages/Home/Home.jsx";
 import Projects from "./pages/Projects/Projects.jsx";
-import Skills from "./pages/Skills.jsx";
+import Skills from "./pages/Skills/Skills.jsx";
 import About from "./pages/About/About.jsx";
 import ScrollToTopButton from "./components/ScrollButton/ScrollButton.jsx";
 
