@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+.about {
+  text-align: center;
+  background-color: #0b0f19;
+  color: #f4f4f4;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #f2c300;
+  background: linear-gradient(145deg, #f2c300, #e8f561);
+  background-clip: text;
+  color: transparent;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.about__photo-container {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.about__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about__bio {
+  max-width: 800px;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  background-color: #121826;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 70px;
+}
+
+.about__bio-yellow {
+  color: #e8f561;
+}
+
+.about__bio-button {
+  text-decoration: none;
+  color: #e8f561;
+}
+
+.about__bio p {
+  margin-bottom: 15px;
+  color: #f4f4f4;
+}

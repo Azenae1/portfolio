@@ -5,8 +5,10 @@ import Header from "../../components/Header/Header";
 import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
 import whatsapp from "../../assets/whatsapp.png";
+import telegram from "../../assets/tg.png";
 import cv from "../../assets/cv.png";
 import airplane from "../../assets/airplane.png";
+import email from "../../assets/email.png";
 
 const Contacts = () => {
   return (
@@ -45,6 +47,29 @@ const Contacts = () => {
           >
             <img src={github} alt="GitHub" className="contacts__icon" />
             GitHub
+          </a>
+        </div>
+        <div className="contacts__item">
+          <a
+            href="https://t.me/Azenael"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contacts__link"
+          >
+            <img src={telegram} alt="Telegram" className="contacts__icon" />
+            Telegram
+          </a>
+        </div>
+
+        <div className="contacts__item">
+          <a
+            href="mailto:yurybursian@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contacts__link"
+          >
+            <img src={email} alt="Email" className="contacts__icon" />
+            Email
           </a>
         </div>
 
