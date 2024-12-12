@@ -10,13 +10,26 @@ const Skills = () => {
       <h2 className="skills__title">My skills</h2>
       <div className="skills__grid">
         {skillsList.map((skill) => (
-          <div key={skill.id} className="skills__tile">
-            <img src={skill.logo} alt={skill.name} style={skill.style} />
+          <div key={skill.id} className="skills__wrapper">
+            <div className="skills__tile">
+              <img src={skill.logo} alt={skill.name} style={skill.style} />
+            </div>
+            <p className="skills__name">{skill.name}</p>
           </div>
         ))}
       </div>
-      {/* Experience */}
-      <button className="skills__cv-button">DOWNLOAD MY CV</button>
+      {/* CV */}
+
+      <button className="skills__cv-button">
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="skills__cv-link"
+        >
+          DOWNLOAD MY CV
+        </a>
+      </button>
     </section>
   );
 };

@@ -31,6 +31,10 @@
   align-self: center;
 }
 
+.skills__wrapper {
+  position: relative;
+}
+
 .skills__tile {
   width: 150px;
   height: 150px;
@@ -53,10 +57,27 @@
   object-fit: contain;
 }
 
+.skills__name {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0;
+  transition: bottom 0.3s ease, opacity 0.3s ease;
+}
+
+.skills__wrapper:hover .skills__name {
+  bottom: -45px;
+  opacity: 1;
+}
+
 .skills__cv-button {
   background-color: #e8f561;
-  margin-bottom: 50px;
-  color: #121826;
+  margin-bottom: 70px;
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
@@ -67,4 +88,9 @@
 
 .skills__cv-button:hover {
   background-color: #c4d642;
+}
+
+.skills__cv-link {
+  text-decoration: none;
+  color: #121826;
 }
