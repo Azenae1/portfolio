@@ -55,6 +55,7 @@
 .contacts__link:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+  color: #e8f561;
 }
 
 .contacts__icon {
