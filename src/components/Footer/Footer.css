@@ -28,3 +28,26 @@
   margin: 0;
   padding: 0;
 }
+@media (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5px 15px;
+    height: 50px;
+  }
+
+  .footer__img {
+    width: 20px;
+  }
+
+  .social-links {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .footer {
+    padding: 10px 15px;
+    height: 50px;
+  }
+}
