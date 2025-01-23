@@ -44,7 +44,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .scroll-to-top.visible {
     display: none;
   }
