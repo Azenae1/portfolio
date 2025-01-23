@@ -82,3 +82,49 @@
   color: #e8f561;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .contacts__relocation {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contacts__info {
+    gap: 30px 60px;
+  }
+
+  .contacts__link {
+    width: 150px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacts__info {
+    gap: 20px 40px;
+  }
+
+  .contacts__relocation {
+    margin: 50px 40px;
+  }
+
+  .contacts__relocation-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .contacts__info {
+    gap: 20px 30px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contacts__link {
+    width: 190px;
+  }
+
+  .contacts__relocation {
+    padding: 10px;
+    margin: 30px 20px 50px;
+  }
+}
