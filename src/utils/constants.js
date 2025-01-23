@@ -84,7 +84,7 @@ export const skillsList = [
   { id: 8, name: "Webpack", logo: webpack, style: { width: "134px" } },
   { id: 9, name: "Git", logo: git, style: { width: "140px" } },
   { id: 10, name: "GoogleCloud", logo: gcp, style: { width: "160px" } },
-  { id: 11, name: "AmazonWebServices", logo: aws, style: { width: "134px" } },
+  { id: 11, name: "AWS", logo: aws, style: { width: "134px" } },
   { id: 12, name: "Docker", logo: docker, style: { width: "144px" } },
   { id: 13, name: "NPM", logo: npm, style: { width: "200px" } },
   { id: 14, name: "React Redux", logo: redux, style: { width: "135px" } },
