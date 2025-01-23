@@ -51,7 +51,7 @@
   padding: 20px 30px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  margin-bottom: 70px;
+  margin: 0 50px 70px;
 }
 
 .about__bio-yellow {
@@ -66,4 +66,43 @@
 .about__bio p {
   margin-bottom: 15px;
   color: #f4f4f4;
+}
+
+@media (max-width: 768px) {
+  .about__title {
+    font-size: 2.2rem;
+  }
+
+  .about__bio {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .about__photo-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about__bio {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about__title {
+    font-size: 2rem;
+  }
+
+  .about__bio {
+    font-size: 0.8rem;
+    margin: 0 20px 50px;
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .about__bio {
+    font-size: 0.7rem;
+  }
 }

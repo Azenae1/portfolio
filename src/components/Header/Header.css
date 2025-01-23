@@ -59,4 +59,8 @@
     gap: 20px;
     align-items: flex-start;
   }
+
+  .nav-link {
+    font-size: 16px;
+  }
 }

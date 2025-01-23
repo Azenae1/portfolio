@@ -84,6 +84,10 @@
 }
 
 @media (max-width: 768px) {
+  .contacts__title {
+    font-size: 2.2rem;
+  }
+
   .contacts__relocation {
     margin-bottom: 50px;
   }
@@ -101,6 +105,10 @@
 }
 
 @media (max-width: 480px) {
+  .contacts__title {
+    font-size: 2rem;
+  }
+
   .contacts__info {
     gap: 20px 40px;
   }

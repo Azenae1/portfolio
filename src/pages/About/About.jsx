@@ -41,10 +41,10 @@ const About = () => {
               testing software
             </span>{" "}
             for measurement equipment, ensuring its accuracy, I occasionally
-            helped installing equipment on mobile labs as well as
+            helped installing equipment on mobile labs and
             <span className="about__bio-yellow">
               {" "}
-              writing clear instructions
+              authored clear instructions
             </span>{" "}
             for our clients on how to use it.
           </p>
