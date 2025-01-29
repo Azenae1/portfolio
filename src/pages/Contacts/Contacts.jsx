@@ -9,6 +9,7 @@ import telegram from "../../assets/tg.png";
 import cv from "../../assets/cv.png";
 import airplane from "../../assets/airplane.png";
 import email from "../../assets/email.png";
+import fiverr from "../../assets/fiverr.png";
 
 const Contacts = () => {
   return (
@@ -51,13 +52,13 @@ const Contacts = () => {
         </div>
         <div className="contacts__item">
           <a
-            href="https://t.me/Azenael"
+            href="https://www.fiverr.com/yury_bursian?public_mode=true"
             target="_blank"
             rel="noopener noreferrer"
             className="contacts__link"
           >
-            <img src={telegram} alt="Telegram" className="contacts__icon" />
-            Telegram
+            <img src={fiverr} alt="Fiverr" className="contacts__icon" />
+            Fiverr
           </a>
         </div>
 
